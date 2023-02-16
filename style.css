@@ -1,11 +1,16 @@
 body, html {
     height: 100%;
+    background-image:url("about.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: 50% 0;
+    background-size:cover;
 }
 
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Charles-Schulz-with-Snoop-008\ \(1\).webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Charles-Schulz-with-Snoop-008.webp");
 
   /* Set a specific height */
   height: 50%;
@@ -25,4 +30,16 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.green-box {
+  position: relative;
+  text-align:center;
+  padding: 70px 0;
+  margin:auto;
+  background: lightblue;
+  width: 75%;
+  top: -30px;
+  height: 500px;
+  opacity:95%;
 }
